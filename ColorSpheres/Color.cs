@@ -7,6 +7,8 @@ namespace ColorSpheres
 {
     public class Color
     {
+        private const byte DEFAULT_ALPHA = 255;
+
         private byte red;
         private byte green;
         private byte blue;
@@ -25,7 +27,7 @@ namespace ColorSpheres
             this.red = red;
             this.green = green;
             this.blue = blue;
-            this.alpha = 255; // Opaco
+            this.alpha = DEFAULT_ALPHA;
         }
 
         public byte Red
