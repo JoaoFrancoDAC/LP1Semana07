@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorSpheres", "ColorSpheres\ColorSpheres.csproj", "{F37E4A5A-D5D5-43A3-BACC-B2F9331A49B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +12,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F37E4A5A-D5D5-43A3-BACC-B2F9331A49B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37E4A5A-D5D5-43A3-BACC-B2F9331A49B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37E4A5A-D5D5-43A3-BACC-B2F9331A49B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37E4A5A-D5D5-43A3-BACC-B2F9331A49B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
